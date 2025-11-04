@@ -24,13 +24,15 @@ function WeatherApp() {
     });
     console.log(data);
 
+    
+
 
     return (
         <>
-            <div className="min-h-150 flex flex-col items-center justify-center bg-gradient-to-br  transition-all duration-700 text-gray-800">
+            <div className="min-h-150 flex flex-col items-center justify-center  ">
                 <div className="bg-blue-50 backdrop-blur-md p-8 rounded-2xl shadow-xl w-11/12 sm:w-[500px] text-center">
                     <h1 className="text-3xl font-bold mb-6 text-gray-900 ">
-                        🌦️ Weather App
+                         Weather App
                     </h1>
 
                     <div className="flex justify-center mb-6">

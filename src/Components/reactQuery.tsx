@@ -27,7 +27,8 @@ function Home(){
 
             
         </div>
-        <button onClick={()=>refetch()} className="border-1 border-black px-2 py-1 items-center">Update cat Info</button>
+        <br/>
+        <button onClick={()=>refetch()} className="border-1 border-black px-2 py-1 items-center ml-240">Update cat Info</button>
         </>
     )
 
